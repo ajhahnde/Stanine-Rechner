@@ -5,27 +5,27 @@ Erstellt in Python mit einer grafischen Benutzeroberfläche (GUI).
 
 ---
 
-## 🚀 Release
+## Release
 
 Die aktuelle Version kann hier heruntergeladen werden:  
-➡️ [Stanine-Rechner](https://github.com/AJH-99/Stanine-Rechner/releases/latest)
+➡️ [Stanine-Rechner](https://github.com/ajhcds/Stanine-Rechner/releases/latest)
 
-### 📦 Installation
+### Installation
 
-1️⃣ Lade die Datei **`ui.app.zip`** aus dem Release herunter.  
-2️⃣ Entpacke das Archiv.  
-3️⃣ Starte die App mit einem Doppelklick.
+Lade die Datei **`ui.app.zip`** aus dem Release herunter.   
+Entpacke das Archiv.  
+Starte die App mit einem Doppelklick.
 
 ---
 
-## 🧪 Für Entwickler
+## Für Entwickler
 
-### 🔷 Voraussetzungen
+### Voraussetzungen
 
 - Python 3.8+
 - tkinter
 
-### 🔷 Start der GUI
+### Start der GUI
 
 ```bash
 python3 ui.py
