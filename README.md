@@ -8,7 +8,7 @@ Erstellt in Python mit einer grafischen Benutzeroberfläche (GUI).
 ## 🚀 Release
 
 Die aktuelle Version kann hier heruntergeladen werden:  
-➡️ [Stanine-Rechner v1](https://github.com/bitmjac/Stanine-Rechner/releases/latest)
+➡️ [Stanine-Rechner](https://github.com/AJH-99/Stanine-Rechner/releases/latest)
 
 ### 📦 Installation
 
@@ -23,7 +23,7 @@ Die aktuelle Version kann hier heruntergeladen werden:
 ### 🔷 Voraussetzungen
 
 - Python 3.8+
-- tkinter (meist vorinstalliert)
+- tkinter
 
 ### 🔷 Start der GUI
 
