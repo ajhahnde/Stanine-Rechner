@@ -18,8 +18,6 @@ Starte die App mit einem Doppelklick.
 
 ---
 
-## Für Entwickler
-
 ### Voraussetzungen
 
 - Python 3.8+
