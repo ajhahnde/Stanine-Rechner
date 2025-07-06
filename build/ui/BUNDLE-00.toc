@@ -1,1 +1,1 @@
-([('ui', '/Users/antonhahn/Projekte/Stanine/dist/ui', 'EXECUTABLE')],)
+([('ui', '/Users/antonhahn/Projekte/Stanine-Rechner/dist/ui', 'EXECUTABLE')],)

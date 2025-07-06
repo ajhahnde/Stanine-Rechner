@@ -6,16 +6,16 @@ class StanineTool:
         with open(json_path, encoding="utf-8") as f:
             self.daten = json.load(f)
         # Definition der Altersgruppen je nach Formular
-        self.altersgruppen = {
-            "FBB": {
-                "Mädchen": [(4, 6, "4-6"), (7, 10, "7-10"), (11, 13, "11-13"), (14, 17, "14-17")],
-                "Jungen":  [(4, 6, "4-6"), (7, 10, "7-10"), (11, 13, "11-13"), (14, 17, "14-17")]
-            },
-            "SBB": {
-                "Mädchen": [(11, 13, "11-13"), (14, 17, "14-17")],
-                "Jungen":  [(11, 13, "11-13"), (14, 17, "14-17")]
+            self.altersgruppen = {
+                "FBB": {
+                    "Mädchen": [(4, 6, "4-6"), (7, 10, "7-10"), (11, 13, "11-13"), (14, 17, "14-17")],
+                    "Jungen":  [(4, 6, "4-6"), (7, 10, "7-10"), (11, 13, "11-13"), (14, 17, "14-17")]
+                },
+                "SBB": {
+                    "Mädchen": [(11, 13, "11-13"), (14, 17, "14-17")],
+                    "Jungen":  [(11, 13, "11-13"), (14, 17, "14-17")]
+                }
             }
-        }
 
     def finde_altersgruppe(self, form, geschlecht, alter):
         for grenze_min, grenze_max, bezeichnung in self.altersgruppen[form][geschlecht]:

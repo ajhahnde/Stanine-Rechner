@@ -10,7 +10,8 @@ DATEIEN = {
     "ZWA": "daten/zwa.json",
     "TBS": "daten/tbs.json",
     "BIST": "daten/bist.json",
-    "ASKS": "daten/asks.json"
+    "ASKS": "daten/asks.json",
+    "ADHSV": "daten/adhsv.json"  # Neu hinzugefügt
 }
 
 print(f"""----------------------
@@ -20,10 +21,10 @@ print(f"""----------------------
 while True:
     fragebogen = input("Fragebogen: ").strip().upper()
     if fragebogen == "EXIT":
-        print("Programm beendet.")
+        print("Programm beendet")
         break
     if fragebogen not in DATEIEN:
-        print(f"Ungültiger Fragebogen.\n")
+        print(f"Ungültiger Fragebogen\n")
         continue
 
     tool = StanineTool(DATEIEN[fragebogen])
@@ -76,6 +77,8 @@ while True:
             kennwerte = []
         elif fragebogen == "ASKS":
             kennwerte = []
+        elif fragebogen == "ADHSV":
+            kennwerte = ["UA-V", "HY-IM-V", "GES-ADHS-V"]
 
         rohwerte = {}
         for kw in kennwerte:
