@@ -61,13 +61,15 @@ while True:
         elif fragebogen == "DES":
             kennwerte = ["GES-DES", "K-SG"]
         elif fragebogen == "SCREEN":
-            kennwerte = []
+            kennwerte = ["ADHS-SCREEN", "SSV-SCREEN", "ANG-SCREEN", "DEP-SCREEN", "ENTW-SCREEN",
+                         "AUT-SCREEN", "ZWATIC-SCREEN", "EXT-SCREEN", "INT-SCREEN", "KON-SCREEN", "GES-SCREEN"]
         elif fragebogen == "TIC":
             kennwerte = []
         elif fragebogen == "SSV":
-            kennwerte = []
+            kennwerte = ["OPP", "AG-DISS", "BPE",
+                         "DAF-RE", "GES-SSV", "FL-SSV", "K_PSV"]
         elif fragebogen == "ZWA":
-            kennwerte = []
+            kennwerte = ["ZH", "ZG", "ZPS", "KD-S", "GES-ZWA", "FL-ZWA"]
         elif fragebogen == "TBS":
             kennwerte = []
         elif fragebogen == "BIST":
